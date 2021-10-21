@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>AGRO PLUS</title>
+
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+      body {
+        font-size: 25px;
+        background-color: rgb(255, 255, 255);
+        color: white;
+      }
+      p {
+        font-family: 'Gemunu Libre', sans-serif;;
+        font-size: 30px;
+        color: rgb(3, 3, 3);
+      }
+      h5 {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+      body {
+        font-size: 25px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+      }
+      h1{
+        font-family: 'Kalam', cursive;
+        font-size: 50px;
+        color: rgb(58, 1, 58);
+      }
+      nav {
+        font-family: 'Goudy Bookletter 1911', serif;
+
+      }
+    </style>
+
+    <!-- navbar col menù -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/log.jpg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="orto/orto.html">Orto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="giardino/giardino.html">Giardino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="animali/animali.html">Animali</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="agricoltura/agricoltura.html">Agricoltura</a>
+              </li>
+            </ul>
+            
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">🔍</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- slider di foto-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/orto.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/giardino.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/animali.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="images/agricoltura.jpg" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- testo di benvenuto-->
+    <div class="container">
+       <h1></h1>
+        <p>
+        </p>
+    </div>
+
+    <!-- card con le attrazioni iniziali-->
+    <div class="container">
+      <div class="row">
+        
+    <div class="card" style="width: 20rem;">
+      <img src="images/ortocard.jpg" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ORTO</h5>
+        <p class="card-text"></p>
+        <a href="orto/orto.html" class="btn btn-primary">Più info 👆</a>
+      </div>
+    </div>
+    <div class="card" style="width: 21rem;">
+      <img src="images/giardinocard.jpg" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">GIARDINO</h5>
+        <p class="card-text"></p>
+        <a href="giardino/giardino.html" class="btn btn-primary">Più info 👆</a>
+      </div>
+    </div>
+    <div class="card" style="width: 20rem;">
+      <img src="images/animalicard.jpg" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ANIMALI</h5>
+        <p class="card-text"></p>
+        <a href="animali/animali.html" class="btn btn-primary">Più info 👆</a>
+      </div>
+    </div>
+    <div class="card" style="width: 21rem;">
+      <img src="images/agricolturacard.jpg" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">AGRICOLTURA</h5>
+        <p class="card-text"></p>
+        <a href="agricoltura/agricoltura.html" class="btn btn-primary">Più info 👆</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      
+<section class="text-center">
+    <img src="images/log.jpg" style="padding-top: 20px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="ligth">
+              <p>AGROPLUS è un sito e un'orgazi</p>
+</section>
+</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
+
+
+
+
